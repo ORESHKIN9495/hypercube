@@ -15,16 +15,15 @@
             color: var(--scheme-v3);
             letter-spacing: 2px;
             margin: var(--scheme-gap) 0 0px 0;
-            text-transform: uppercase; 
+            text-transform: uppercase;
             
-        }
-
-        h2::before{
-            content: "Possibilities";
-            color: #0fd29828;
-            font-size: var(--scheme-shadow-size);
-            margin: var(--scheme-offset) 0 0 10px;
-            position: absolute; 
+            &::before{
+                content: "Possibilities";
+                color: #0fd29828;
+                font-size: var(--scheme-shadow-size);
+                margin: var(--scheme-offset) 0 0 5px;
+                position: absolute; 
+            }   
         }
     }
     
@@ -39,6 +38,6 @@
 
     p:last-child{
         margin: 200px 0 0 0;
-        text-align: start;   
+        text-align: left; 
     }
 }

@@ -5,79 +5,27 @@
         color: var(--scheme-v3);
         letter-spacing: 2px;
         margin: var(--scheme-gap) 0 20px 0;
-        text-transform: uppercase; 
-    }
-
-    h2::before{
-        content: "Details";
-        color: #0fd29828;
-        font-size: var(--scheme-shadow-size);
-        margin: var(--scheme-offset) 0 0 10px;
-        position: absolute; 
-    }
-
-    &__basic{
-        max-width: var(--scheme-max-width);
-        margin: 100px auto;
-
-        h3{
-            text-transform: uppercase; 
-        }
-
-        p{
-            text-align: start;
-        }
-
-        figure{
-            background: #0fd29828;
-            height: 150px;
-            width: 250px;
-        }
-
-        .basic__item{
-            align-items: center;
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-between; 
-        }
-    }
-
-    &__bonus{
-        max-width: var(--scheme-max-width);
-        margin: 100px auto;
-
-        h3{
-            text-transform: uppercase; 
-        }
-
-        p{
-            text-align: start;
-        }
-
-        figure{
-            background: #0fd29828;
-            height: 150px;
-            width: 250px;
-        }
+        text-transform: uppercase;
         
-        .bonus__item{
-            align-items: center;
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-between; 
+        &::before{
+            content: "Details";
+            color: #0fd29828;
+            font-size: var(--scheme-shadow-size);
+            margin: var(--scheme-offset) 0 0 5px;
+            position: absolute; 
         }
     }
 
-    &__staking{
+    &__items{
         max-width: var(--scheme-max-width);
-        margin: 100px auto;
-
+        margin: 100px auto;  
+        
         h3{
-            text-transform: uppercase; 
+            text-transform: uppercase;
         }
 
         p{
-            text-align: start;
+            text-align: left;
         }
 
         figure{
@@ -85,13 +33,14 @@
             height: 150px;
             width: 250px;
         }
+    }  
+
+    &__item{
+        align-items: center;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
         
-        .staking__item{
-            align-items: center;
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-between; 
-        }
     }
 
     &__view{
