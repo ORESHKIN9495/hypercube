@@ -1,0 +1,27 @@
+/*
+* Third Party @import "../../bower_components/magnific-popup/dist/magnific-popup.css";
+*/
+@import "part/reset.scss";
+
+/*
+* Main
+*/
+
+@import "part/theme.scss";
+
+@import "part/header.scss";
+@import "part/hero.scss";
+@import "part/about.scss";
+@import "part/possibilities.scss";
+@import "part/advantages.scss";
+@import "part/more_details.scss";
+@import "part/security.scss";
+@import "part/details.scss";
+@import "part/status.scss";
+@import "part/make_money.scss";
+
+/*
+* Footer
+*/
+
+@import "part/footer.scss";

@@ -1,0 +1,16 @@
+.more_details{
+    background: var(--scheme-v3);
+    max-width: var(--scheme-max-width);
+    margin: 0 auto;
+    padding: 60px;
+    text-align: center;
+    
+    p{
+        color: var(--scheme-v1);
+    }
+    
+    button{
+        border: 2px solid var(--scheme-v1);
+        padding: 2px 20px;
+    }
+}

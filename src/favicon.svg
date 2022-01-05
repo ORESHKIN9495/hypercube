@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 588 676">
+  <defs>
+    <style>
+      .cls-1{fill:none;stroke:#0fd297;stroke-width:13px;fill-rule:evenodd}
+    </style>
+  </defs>
+  <path d="M294 2 2 171v336l292 168 292-168V171Z" class="cls-1"/>
+  <g opacity=".5">
+    <path fill="#0fd297" fill-rule="evenodd" stroke="#000" d="m293.663 1.994-.584 118.13L483 230l.59 218.513L583.212 506l.8-336.462Z" opacity=".1"/>
+  </g>
+  <path fill="none" fill-rule="evenodd" d="M294 119.259 103.753 228.991v218.167L294 556.24l190.247-109.082V228.991Z"/>
+  <path d="M294 119.259 103.753 229.242v218.665L294 557.239l190.247-109.332V229.242Z" class="cls-1"/>
+  <path d="m584.5 505.6-101-57.014M2 507l101-58M294 2v118m0 218v337M2 171l292 167 292-167" class="cls-1"/>
+</svg>

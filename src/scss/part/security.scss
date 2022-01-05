@@ -1,0 +1,38 @@
+.security{
+    max-width: var(--scheme-max-width);
+    margin: 200px auto;
+    text-align: center;
+
+    h2{
+        color: var(--scheme-v3);
+        letter-spacing: 2px;
+        margin: var(--scheme-gap) 0 0px 0;
+        text-transform: uppercase; 
+        
+    }
+
+    h2::before{
+        content: "Data Decurity";
+        color: #0fd29828;
+        font-size: 20px;
+        margin: 0 0 0 15px;
+        position: absolute; 
+    }
+
+    ul{
+        margin: 200px 0 0 725px;
+        text-align: start;
+
+        li{
+            margin: var(--scheme-gap) 0 0 0; 
+        }
+
+        li:before{
+            border-bottom:1px solid var(--scheme-v3);
+            content: "";
+            margin: 15px 0 0 -40px;   
+            position: absolute;
+            padding: 0 25px 0 0;    
+        }
+    }
+}
