@@ -11,8 +11,8 @@
     h2::before{
         content: "Details";
         color: #0fd29828;
-        font-size: 20px;
-        margin: 0 0 0 10px;
+        font-size: var(--scheme-shadow-size);
+        margin: var(--scheme-offset) 0 0 10px;
         position: absolute; 
     }
 

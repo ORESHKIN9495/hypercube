@@ -14,8 +14,8 @@
     h2::before{
         content: "Data Decurity";
         color: #0fd29828;
-        font-size: 20px;
-        margin: 0 0 0 15px;
+        font-size: var(--scheme-shadow-size);
+        margin: var(--scheme-offset) 0 0 10px;
         position: absolute; 
     }
 

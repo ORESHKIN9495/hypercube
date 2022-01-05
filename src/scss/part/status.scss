@@ -6,15 +6,15 @@
         color: var(--scheme-v3);
         letter-spacing: 2px;
         margin: var(--scheme-gap) 0 vae(--scheme-gap) 0;
-        text-transform: uppercase; 
-    }
-
-    h2::before{
-        content: "How can I increase my status?";
-        color: #0fd29828;
-        font-size: 20px;
-        margin: 0 0 0 10px;
-        position: absolute; 
+        text-transform: uppercase;
+        
+        &::before{
+            content: "How can I increase my status?";
+            color: #0fd29828;
+            font-size: var(--scheme-shadow-size);
+            margin: var(--scheme-offset) 0 0 10px;
+            position: absolute; 
+        }
     }
 
     button{
