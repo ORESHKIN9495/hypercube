@@ -1,69 +1,67 @@
-.advantages{
-    text-align: center;
-    max-width: var(--scheme-max-width);
-    margin: 200px auto;
+.advantages {
+  text-align: center;
+  max-width: var(--scheme-max-width);
+  margin: 200px auto;
 
-    h2{
-        color: var(--scheme-v3);
-        letter-spacing: 2px;
-        text-transform: uppercase;
+  h2 {
+    color: var(--scheme-v3);
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  }
+
+  h2::before {
+    content: "Advantages";
+    color: #0fd29828;
+    font-size: var(--scheme-shadow-size);
+    margin: var(--scheme-offset) 0 0 10px;
+    position: absolute;
+  }
+
+  p {
+    margin: var(--scheme-gap) 0 0 0;
+  }
+
+  &__item {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 40px;
+    margin: 200px 0 0 0;
+
+    figure {
+      background-color: #0fd29828;
+      height: 150px;
     }
 
-    h2::before{
-        content: "Advantages";        
-        color: #0fd29828;
-        font-size: 20px;
-        margin: 0 0 0 10px;
-        position: absolute; 
+    h3 {
+      align-items: center;
+      margin: var(--scheme-gap);
+      text-transform: uppercase;
     }
 
-    p{
-        margin: var(--scheme-gap) 0 0 0;
+    p {
+      text-align: start;
     }
-
-    &__item{
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-        gap: 40px;
-        margin: 200px 0 0 0;
-        
-        figure{
-            background-color: #0fd29828;
-            height: 150px;
-        }
-
-        h3{
-            align-items: center;
-            margin: var(--scheme-gap);
-            text-transform: uppercase;
-        }
-
-        p{
-            text-align: start;
-        }
-
-    }
-    
+  }
 }
-.item{
-    &__diversification:hover{
-        background:#0fd29891;
-        content: '';
-        padding: 20px;
-        transition: .4s;
-    }
+.item {
+  &__diversification:hover {
+    background: #0fd29891;
+    content: "";
+    padding: 20px;
+    transition: 0.4s;
+  }
 
-    &__analysys:hover{
-        background:#0fd29891;
-        content: '';
-        padding: 20px;
-        transition: .4s;
-    }
+  &__analysys:hover {
+    background: #0fd29891;
+    content: "";
+    padding: 20px;
+    transition: 0.4s;
+  }
 
-    &__turnover:hover{
-        background:#0fd29891;
-        content: '';
-        padding: 20px;
-        transition: .4s; 
-    }
+  &__turnover:hover {
+    background: #0fd29891;
+    content: "";
+    padding: 20px;
+    transition: 0.4s;
+  }
 }

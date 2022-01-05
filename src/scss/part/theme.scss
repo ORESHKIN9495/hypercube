@@ -2,15 +2,14 @@
   --scheme-v1: #12161b;
   --scheme-v2: #ffffff;
   --scheme-v3: #0fd297;
-  --mouse-x: 0px;
-  --mouse-y: 0px;
-  --scale-cursor: 1;
-  --hover-bezier: 0.6s cubic-bezier(0.75, -1.27, 0.3, 2.33);
+
   // project font-family
   --scheme-font: 400 var(--scheme-xs) / 1.64 "Jost", sans-serif;
 
   --scheme-h1: 32px;
   --scheme-xs: 16px;
+
+  --scheme-shadow-size: 22px;
 
   // project default template width
   --scheme-max-width: 1047px; // 5 SE
@@ -23,7 +22,7 @@
   --scheme-gap: 20px;
 
   // project ex. header & footer height
-  --scheme-offset: 100px;
+  --scheme-offset: -10px;
 }
 
 // initialize project fonts from @assets
