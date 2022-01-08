@@ -1,25 +1,34 @@
-.about{
-    text-align: center;
+.about {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
 
-    h2{
-        color: var(--scheme-v3);
-        letter-spacing: 2px;
-        text-transform: uppercase;
+  h2 {
+    color: var(--scheme-v3);
+    letter-spacing: 2px;
+    text-transform: uppercase;
 
-        &::before{
-            content: "About Hypercube";        
-            color: #0fd29828;
-            font-size: var(--scheme-shadow-size);
-            margin: var(--scheme-offset) 0 0 10px;
-            position: absolute; 
-        }
+    &::before {
+      content: "About Hypercube";
+      color: #0fd29828;
+      font-size: var(--scheme-shadow-size);
+      margin: var(--scheme-offset) 0 0 10px;
+      position: absolute;
     }
+  }
 
-    p{
-        margin: var(--scheme-gap) 0 0 0;
-    }
+  p {
+    margin: var(--scheme-gap) 0 0 0;
+  }
 
-    p:last-child{
-        margin: 200px 0 0 0;
-    }
+  p:last-child {
+    margin: 200px 0 0 0;
+  }
+
+  img {
+    margin: var(--scheme-gap);
+    height: 400px;
+    width: 400px;
+  }
 }

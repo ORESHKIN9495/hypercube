@@ -1,46 +1,48 @@
 .hero {
-  margin: calc(var(--scheme-gap) * 6) 0;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin: calc(var(--scheme-gap) * 6) auto;
+  max-width: var(--scheme-max-width);
   padding: var(--scheme-gap);
 
-  // background: url("../img/asdsf.svg") no-repeat right;
-  // background-size: contain;
+  &__item {
+    h1 {
+      font-size: var(--scheme-h1);
+      letter-spacing: 0.03em;
+      max-width: 360px;
 
-  // min-height: calc(100vh - 80px);
+      strong {
+        margin: 0 0 0 -15px;
+      }
 
-  &__container {
-    max-width: var(--scheme-max-width);
-    margin: auto;
-  }
-
-  h1 {
-    font-size: var(--scheme-h1);
-    letter-spacing: 0.03em;
-    max-width: 360px;
-
-    strong {
-      margin: 0 0 0 -15px;
+      span {
+        color: var(--scheme-v3);
+        text-transform: uppercase;
+      }
     }
 
-    span {
-      color: var(--scheme-v3);
-      text-transform: uppercase;
+    p {
+      max-width: 340px;
+    }
+
+    .buttons {
+      margin: calc(var(--scheme-gap) * 2) 0;
+
+      button {
+        font-size: calc(var(--scheme-xs) - 1px);
+      }
+
+      svg {
+        margin: 0 0 0 var(--scheme-gap);
+        vertical-align: bottom;
+      }
     }
   }
 
-  p {
-    max-width: 340px;
-  }
-
-  .buttons {
-    margin: calc(var(--scheme-gap) * 2) 0;
-
-    button {
-      font-size: calc(var(--scheme-xs) - 1px);
-    }
-
-    svg {
-      margin: 0 0 0 var(--scheme-gap);
-      vertical-align: bottom;
+  picture {
+    img {
+      width: 100%;
     }
   }
 }

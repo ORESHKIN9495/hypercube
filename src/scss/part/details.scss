@@ -1,54 +1,61 @@
-.details{
-    text-align: center;
+.details {
+  text-align: center;
 
-    h2{
-        color: var(--scheme-v3);
-        letter-spacing: 2px;
-        margin: var(--scheme-gap) 0 20px 0;
-        text-transform: uppercase;
-        
-        &::before{
-            content: "Details";
-            color: #0fd29828;
-            font-size: var(--scheme-shadow-size);
-            margin: var(--scheme-offset) 0 0 5px;
-            position: absolute; 
-        }
+  h2 {
+    color: var(--scheme-v3);
+    letter-spacing: 2px;
+    margin: var(--scheme-gap) 0 20px 0;
+    text-transform: uppercase;
+
+    &::before {
+      content: "Details";
+      color: #0fd29828;
+      font-size: var(--scheme-shadow-size);
+      margin: var(--scheme-offset) 0 0 5px;
+      position: absolute;
+    }
+  }
+
+  &__items {
+    margin: 100px auto;
+    max-width: var(--scheme-max-width);
+
+    h3 {
+      text-transform: uppercase;
     }
 
-    &__items{
-        max-width: var(--scheme-max-width);
-        margin: 100px auto;  
-        
-        h3{
-            text-transform: uppercase;
-        }
+    p {
+      text-align: left;
+    }
+  }
 
-        p{
-            text-align: left;
-        }
+  &__item {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 
-        figure{
-            background: #0fd29828;
-            height: 150px;
-            width: 250px;
-        }
-    }  
-
-    &__item{
-        align-items: center;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        
+    img {
+      max-height: 150px;
+      opacity: 0.2;
+      object-fit: cover;
+      transition: 0.3s ease-in-out;
+      width: 250px;
     }
 
-    &__view{
-        margin: 200px 0 0 0;
-
-        button{
-            margin: 40px 0 0 0;
-            padding: 5px 15px;
-        }
+    &:hover {
+      img {
+        opacity: 1;
+      }
     }
+  }
+
+  &__view {
+    margin: 200px 0 0 0;
+
+    button {
+      margin: 40px 0 0 0;
+      padding: 5px 15px;
+    }
+  }
 }
