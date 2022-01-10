@@ -32,3 +32,16 @@
     width: 400px;
   }
 }
+@media only screen and (max-width: 975px) {
+  .about {
+    padding: 0 var(--scheme-gap);
+
+    img {
+      max-width: 100%;
+      margin: var(--scheme-gap) auto;
+    }
+  }
+}
+
+@media only screen and (max-width: 320px) {
+}

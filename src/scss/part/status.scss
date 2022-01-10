@@ -7,18 +7,32 @@
     letter-spacing: 2px;
     margin: var(--scheme-gap) 0 vae(--scheme-gap) 0;
     text-transform: uppercase;
+    position: relative;
+    text-align: center;
 
     &::before {
       content: "How can I increase my status?";
       color: #0fd29828;
+      display: block;
       font-size: var(--scheme-shadow-size);
-      margin: var(--scheme-offset) 0 0 10px;
+      margin: var(--scheme-offset) auto;
       position: absolute;
+      width: 100%;
     }
   }
 
   button {
-    margin: 40px 16px 0 0;
+    margin: 10px;
     padding: 5px 20px;
+  }
+}
+
+@media only screen and (max-width: 975px) {
+  .status {
+    padding: 0 var(--scheme-gap);
+  }
+
+  button {
+    margin: 0 auto;
   }
 }

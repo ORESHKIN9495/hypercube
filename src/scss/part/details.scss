@@ -59,3 +59,9 @@
     }
   }
 }
+
+@media only screen and (max-width: 975px) {
+  .details {
+    padding: 0 var(--scheme-gap);
+  }
+}

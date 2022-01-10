@@ -3,7 +3,8 @@ header {
   display: flex;
   flex-wrap: wrap;
   font-size: calc(var(--scheme-xs) - 1px);
-  padding: calc(var(--scheme-gap) * 2) 0;
+  // padding: calc(var(--scheme-gap) * 2) 0;
+  padding: var(--scheme-gap) var(--scheme-gap);
   text-transform: uppercase;
   max-width: var(--scheme-max-width);
   margin: auto;
@@ -42,5 +43,19 @@ header {
     &:hover {
       background: #12322e;
     }
+  }
+}
+
+@media only screen and (max-width: 878px) {
+  header {
+    nav {
+      display: none;
+    }
+  }
+}
+
+@media only screen and (min-width: 878px) {
+  .burger {
+    display: none;
   }
 }

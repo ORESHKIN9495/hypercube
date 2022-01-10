@@ -40,9 +40,15 @@
     }
   }
 
-  picture {
-    img {
-      width: 100%;
-    }
+  img {
+    background: var(--scheme-v3);
+    height: 400px;
+    max-width: 400px;
+  }
+}
+
+@media only screen and (max-width: 975px) {
+  .hero {
+    flex-wrap: wrap;
   }
 }

@@ -33,7 +33,7 @@
       text-align: left;
 
       li {
-        margin: var(--scheme-gap) 0 0 0;
+        margin: var(--scheme-gap) 0 0 60px;
 
         &::before {
           border-bottom: 1px solid var(--scheme-v3);
@@ -43,6 +43,25 @@
           padding: 0 25px 0 0;
         }
       }
+    }
+  }
+}
+
+@media only screen and (max-width: 975px) {
+  article {
+    flex-wrap: wrap;
+    padding: 0 20px;
+
+    picture {
+      margin: 0 auto;
+
+      img {
+        max-width: 100%;
+      }
+    }
+
+    ul {
+      margin: 0 auto;
     }
   }
 }
