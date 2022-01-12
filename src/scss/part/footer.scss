@@ -7,8 +7,15 @@ footer {
 
   figure {
     flex-basis: 100%;
+
     svg {
-      width: 180px;
+      cursor: pointer;
+      width: var(--scheme-hypercube-size);
+      transition: opacity var(--scheme-transition);
+
+      &:hover {
+        opacity: 0.2;
+      }
     }
   }
 

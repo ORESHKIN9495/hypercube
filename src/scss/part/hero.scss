@@ -1,10 +1,9 @@
 .hero {
   align-items: center;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
-  margin: calc(var(--scheme-gap) * 6) auto;
-  max-width: var(--scheme-max-width);
-  padding: var(--scheme-gap);
+  text-align: left;
 
   &__item {
     h1 {
@@ -30,25 +29,43 @@
       margin: calc(var(--scheme-gap) * 2) 0;
 
       button {
-        font-size: calc(var(--scheme-xs) - 1px);
+        margin: 0 var(--scheme-gap) 0 0;
+        transition: background var(--scheme-transition);
+
+        &:hover {
+          background: var(--scheme-v4);
+        }
       }
 
       svg {
-        margin: 0 0 0 var(--scheme-gap);
+        transition: opacity var(--scheme-transition);
         vertical-align: bottom;
+
+        &:hover {
+          opacity: 0.2;
+        }
       }
     }
   }
 
-  img {
-    background: var(--scheme-v3);
-    height: 400px;
-    max-width: 400px;
+  picture {
+    img {
+      height: 600px;
+    }
   }
 }
 
 @media only screen and (max-width: 975px) {
   .hero {
-    flex-wrap: wrap;
+    flex-direction: column;
+
+    &__item {
+      margin: auto;
+      text-align: center;
+    }
+
+    picture {
+      display: none;
+    }
   }
 }

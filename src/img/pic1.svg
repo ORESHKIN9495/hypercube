@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1145 962">
+  <defs>
+    <style>
+      .cls-3,.cls-7{stroke-width:1px;fill-rule:evenodd}.cls-7{stroke:#0fd297;stroke-width:2px}.cls-3{fill:#0fd297;opacity:.1}.cls-7{fill:none}
+    </style>
+  </defs>
+  <path fill-rule="evenodd" stroke-width="1" d="m827 486 80-217-192-113-79 46 110 63-3 172Z" opacity=".2"/>
+  <g>
+    <g>
+      <path fill="#12161b" fill-rule="evenodd" stroke="#0fd297" stroke-width="2" d="M594.088 86.655 365.14 219.162v263.447l228.948 131.724 228.948-131.724V219.162Z" opacity=".7"/>
+      <g>
+        <g>
+          <path d="M823.036 219.107 594.088 349.61v263.35l228.948-131.284V219.107Z" class="cls-3"/>
+          <path d="m365.14 219.018 228.948 130.429v263.2L365.14 481.439V219.018Z" class="cls-3"/>
+        </g>
+        <g opacity=".5">
+          <path d="m593.151 86.344 1.3 263.465-228.374 131.778-.625-263.856Z" class="cls-3"/>
+          <path d="m593.824 86.651-1.3 263.418L820.85 481.825l.624-263.81Z" class="cls-3"/>
+        </g>
+      </g>
+      <g fill-rule="evenodd">
+        <path fill="none" d="m594.088 178.529-149.166 85.989v170.96l149.166 85.48 149.167-85.48v-170.96Z"/>
+        <path fill="#12161b" stroke="#0fd297" stroke-width="2" d="m594.088 178.529-149.166 86.185v171.35l149.166 85.675 149.167-85.675v-171.35Z" opacity=".5"/>
+      </g>
+      <g>
+        <path d="m821.86 481.512-79.191-44.7" class="cls-7"/>
+        <path d="m365.14 482.609 79.191-45.476" class="cls-7"/>
+        <path d="M594.088 86.655v92.52" class="cls-7"/>
+        <path d="M594.088 350.1v264.233" class="cls-7"/>
+        <path d="M365.14 219.162 594.088 350.1l228.948-130.94" class="cls-7"/>
+      </g>
+    </g>
+  </g>
+  <g>
+    <path fill="#0fd297" fill-rule="evenodd" stroke-width="1" d="M1145 406.544 713.279 157 0 567.9l429.844 249.548Z" opacity=".03"/>
+    <path d="M429.844 962V817.448L1.877 569.78v144.551Z" class="cls-3" />
+  </g>
+</svg>

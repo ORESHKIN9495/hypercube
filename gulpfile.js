@@ -12,11 +12,11 @@ const rimraf = require("rimraf");
 
 function browserSync() {
   browsersync.init({
-    server: { baseDir: "./dist/" },
+    server: { baseDir: "./dist" },
     notify: false,
     online: true,
     host: "localhost",
-    port: 8081,
+    port: 8080,
   });
 }
 

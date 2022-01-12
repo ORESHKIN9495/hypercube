@@ -2,6 +2,7 @@
   --scheme-v1: #12161b;
   --scheme-v2: #ffffff;
   --scheme-v3: #0fd297;
+  --scheme-v4: hsla(162, 87%, 44%, 0.2);
 
   // project font-family
   --scheme-font: 400 var(--scheme-xs) / 1.64 "Jost", sans-serif;
@@ -11,8 +12,12 @@
 
   --scheme-shadow-size: 22px;
 
+  --scheme-hypercube-size: 200px;
+
+  --scheme-transition: 0.2s ease-in-out;
+
   // project default template width
-  --scheme-max-width: 1047px; // 5 SE
+  --scheme-max-width: 1280px;
   --scheme-min-width: 320px; // 5 SE
 
   // project default template height
@@ -42,10 +47,34 @@
 
 html {
   overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 
 body {
   background: var(--scheme-v1);
   color: var(--scheme-v2);
   font: var(--scheme-font);
+}
+
+h2 {
+  color: var(--scheme-v3);
+  letter-spacing: 2px;
+  position: relative;
+  text-transform: uppercase;
+
+  &::before {
+    color: #0fd29828;
+    font-size: var(--scheme-shadow-size);
+    left: 0;
+    margin: var(--scheme-offset) auto;
+    position: absolute;
+    right: 0;
+  }
+}
+
+section {
+  margin: calc(var(--scheme-gap) * 6) auto;
+  max-width: var(--scheme-max-width);
+  padding: var(--scheme-gap);
+  text-align: center;
 }
